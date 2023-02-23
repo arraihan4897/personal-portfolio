@@ -1,0 +1,111 @@
+.active{
+    font-size: large;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+a img{
+    height: 50px;
+    width:50px;
+}
+
+.skill{
+  padding-bottom: 50px;
+}
+
+.skill img{
+ margin: auto;
+padding: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.skill h1{
+  text-align: center;
+
+}
+
+  .skCard{
+    border-radius: 20px;
+   padding-top: 10px ;  box-shadow: -10px 10px 10px rgba(75, 73, 73, 0.4);
+  }
+  .ftr{
+    margin-top: 50px;
+  }
+
+  .ftr a{
+    text-decoration: none;
+    color:white !important;;
+  }
+  h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 50PX;
+    
+  }
+  
+ h5{
+    color: white;
+  }
+  
+  .Qualification{
+    max-width: 500PX;
+    border-radius: 15px;
+    border: 1px solid black;;
+    margin: auto;
+    box-shadow: -10px 10px 10px rgba(75, 73, 73, 0.7);
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  .about{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+      
+    }
+    .item {
+    width: 100vh;
+    height:300px;
+   
+    padding: 15px;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    }
+
+
+    @media (max-width:640px)  {
+      .item {
+        width: 450px;
+        height:350px;
+      }
+    }
+    @media (min-width:640px)  {
+      .item {
+        width:600px;
+      }
+    }
+    @media (min-width:1007px)  {
+      .item {
+        width:780px;
+      }
+    }
